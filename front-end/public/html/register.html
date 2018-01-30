@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../icons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/register-page/static/sta-1.css">
+	<link rel="stylesheet" type="text/css" href="../css/register-page/responsive/res-1.css">
+	
+</head>
+<body>
+	<span id="back-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back </span>
+	<div id="main-con">
+
+
+		<div class="form-con">
+
+			<div id="form-content">
+				<div class="logo-con col-12 col-m-12">
+					<div class="logo-img-con">
+						<img src="../images/csa-logo1.jpg">
+					</div>
+				</div>
+
+				<div class="form-main-content col-12 col-m-12">
+					<form>
+						<h3 class="headers">Personal Information</h3>
+						<br>
+						<div class="input-con row">
+							<label class="labels padding clear-l">Name <strong class="ast">*</strong></label>
+							<div class="first padding float-l">
+								<input type="text" name="first-name" id="input-first-name" class="inputs strings" placeholder="First">
+								<span class="err err-first-name"></span>
+							</div>
+							<div class="last padding float-l">
+								<input type="text" name="last-name" id="input-last-name" class="inputs strings" placeholder="Last">
+								<span class="err err-last-name"></span>
+							</div>
+						</div>
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Address <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="address" id="input-address" class="inputs" placeholder="House no. / Street / Barangay / City">
+								<span class="err err-address"></span>
+							</div>
+						</div>
+
+						<div class="input-con row">
+							<div class="input-con item float-l">
+								<label class="labels padding">Age <strong class="ast">*</strong></label>
+								<div class="padding">
+									<input type="number" name="age" id="input-age" class="inputs number" min="1" max="150">
+									<span class="err err-age"></span>
+								</div>
+							</div>
+
+							<div class="input-con item float-l">
+								<label class="labels padding">Gender <strong class="ast">*</strong></label>
+								<div class="padding">
+									<select id="input-gender" class="inputs" name="gender">
+
+										<option value="Male">Male</option>
+										<option value="Female">Female</option>
+									</select>
+									<span class="err err-gender"></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Position <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="position" id="input-position" class="inputs strings">
+								<span class="err err-position"></span>
+							</div>
+						</div>
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Username <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="username" id="input-username" class="inputs username">
+								<span class="err err-username"></span>
+							</div>
+						</div>
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Password <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="password" name="password" id="input-password" class="inputs">
+								<span class="err err-password"></span>
+							</div>
+						</div>
+
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Confirm Password <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="password" name="confirm-password" id="input-confirm-password" class="inputs confirm">
+								<span class="err err-confirm-password"></span>
+							</div>
+						</div>
+						<br>
+						<br>
+						<h3 class="headers">Contact Information</h3>
+						<br>
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Mobile no. <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="mobile-number" id="input-mobile-number" class="inputs number">
+								<span class="err err-mobile-number"></span>
+							</div>
+						</div>
+
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Telephone no. <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="telephone-number" id="input-telephone-number" class="inputs number">
+								<span class="err err-telephone-number"></span>
+							</div>
+						</div>
+
+						<div class="input-con row">
+							<label class="labels padding clear-l">Email Address <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="email" id="input-email" class="inputs email">
+								<span class="err err-email"></span>
+							</div>
+						</div>
+
+						<br>
+						<br>
+						<h3 class="headers">Contact Person In Case of Emergency</h3>
+						<br>
+						<div class="input-con row">
+							<label class="labels padding clear-l">Name <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="contact-name" id="input-contact-name" class="inputs strings">
+								<span class="err err-contact-name"></span>
+							</div>
+						</div>
+
+						<div class="input-con row"> 
+							<label class="labels padding clear-l">Contact Number <strong class="ast">*</strong></label>
+							<div class="padding">
+								<input type="text" name="contact-number" id="input-contact-number" class="inputs number">
+								<span class="err err-contact-number"></span>
+							</div>
+						</div>
+						<br>
+						<br>
+						<div class="input-con">
+							<input type="button" name="submit" id="submit-btn" value="Submit">
+						</div>
+
+
+					</form>
+				</div>
+
+
+			</div>
+			
+		</div>
+	</div>
+
+<!--my modal-->
+
+	<div id="main-modal-con">
+		<div class="modal-con">
+			<span id="close-btn-con" class="row"><i class="fa fa-times" aria-hidden="true" id="close-btn"></i></span>
+			<div id="modal-text-con">
+				<p>You have registered successfully!</p>
+				<br>
+				<br>
+
+				<button id="go-to-login">Log In?</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/back-to-login-page.js"></script>
+	<script type="text/javascript" src="../js/validator.js"></script>
+	<script type="text/javascript" src="../js/open-modal.js"></script>
+</body>
+</html>

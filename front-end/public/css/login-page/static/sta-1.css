@@ -1,0 +1,90 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	
+}
+
+body{
+	min-height: 500px;
+}
+
+.float-l{
+	float: left;
+}
+
+div#main-con{
+	padding-top: 140px;
+}
+
+div.login-con{
+	background-color: white;
+	display: block;
+	margin: auto;
+	font-family: Arial;
+}
+
+
+div#login-content div:nth-child(1) img{
+	width:100%;
+}
+
+div#form-con{
+	padding: 10px;
+}
+
+div.input-con{
+	
+}
+
+div.texts{
+	padding: 3px;
+	position: relative;
+}
+
+div.texts input.inputs{
+	padding-left: 30px;
+	border:1px solid #00adef;
+	outline: none;
+}
+
+div.texts i{
+	position: absolute;
+	top: 10px;
+	left: 13px;
+	color: #00adef;
+}
+
+input.inputs{
+	width: 100%;
+	padding: 5px 3px;
+}
+
+#login-err{
+	color: #ec171f;
+	padding-left: 8px;
+	display: none;
+}
+
+#login-btn{
+	display: block;
+	margin: auto;
+	font-weight: bolder;
+	padding: 8px 20px;
+	background-color: #00adef;
+	color: white;
+	cursor: pointer;
+	border: none;
+	box-shadow: -1px 1px 3px rgba(0,0,0,0.5);
+}
+
+
+#register-btn{
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	color: #00adef;
+	margin: auto;
+	display: block;
+	width: 130px;
+}

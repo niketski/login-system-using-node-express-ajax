@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.float-l{
+	float: left;
+}
+
+.clear-l{
+	clear: left;
+}
+
+
+.padding{
+	padding: 5px;
+}
+
+body{
+	background-color: #00adef;
+}
+
+div#main-con{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+div.logo-con{
+	height: 60px;
+	z-index: 2;
+}
+
+div.logo-img-con{
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+	overflow: hidden;
+	display: block;
+	margin: auto;
+	background-color: #00adef;
+	padding: 10px;
+}
+
+div.logo-img-con img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	padding: 10px;
+	background-color: #00adef;
+}
+
+div.form-main-content{
+	z-index: 1;
+	background-color: white;
+	padding-top: 80px;
+	box-shadow: -1px 1px 3px rgba(0,0,0,0.5);
+}
+
+form{
+	padding: 15px;
+
+}
+
+.item{
+	width: 50%;
+}
+
+.err{
+	color: #eb0d15;
+}
+
+.labels{
+	font-size: 18px;
+	display: block;
+	color: #5f5f5f;
+}
+
+.ast{
+	color: #eb0d15;
+}
+
+.inputs{
+	padding: 8px;
+	width: 100%;
+}
+
+div.first, div.last{
+	width: 50%;
+}
+
+#submit-btn{
+	display: block;
+	margin: auto;
+	padding: 10px 25px;
+	font-weight: bolder;
+	background-color: #00adef;
+	color: white;
+	border: none;
+	cursor: pointer;
+
+}
+
+#submit-btn:hover{
+	box-shadow: -1px 1px 3px rgba(0,0,0,0.5);
+}
+
+#back-btn{
+	cursor: pointer;
+	position: relative;
+	top: 40px;
+	left: 30px;
+	color: white;
+	font-weight: bolder;
+}
+
+div#main-modal-con{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 155px;
+}
+
+div.modal-con{
+	background-color: white;
+	margin: auto;
+}
+
+span#close-btn-con{
+	padding: 8px 10px;
+	background-color: #00adef;
+	display: block;
+	width: 100%;
+}
+
+span#close-btn-con i{
+	float: right;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+div#modal-text-con{
+	text-align: center;
+	padding: 45px 50px;
+
+}
+
+button#go-to-login{
+	padding: 8px 15px;
+	cursor: pointer;
+	outline: none;
+	background-color: #00adef;
+	color: white;
+	border:none;
+	font-weight: bolder;
+}
+
+button#go-to-login:hover{
+	box-shadow: -1px 1px 3px rgba(0,0,0,0.5);
+}
