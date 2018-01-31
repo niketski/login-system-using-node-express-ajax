@@ -3,7 +3,6 @@ var app = express();
 var fs = require('fs');
 var cors = require('cors');
 var bodyParser = require('body-parser');
-var me = 'me';
 
 
 app.use(cors());
